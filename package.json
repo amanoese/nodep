@@ -1,0 +1,27 @@
+{
+  "name": "@amanoese/nodep",
+  "version": "1.0.0",
+  "description": "you can using node function like shell pipe",
+  "bin": {
+    "nodep": "exec.sh"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Seito Taka",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amanoese/nodep.git"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "bugs": {
+    "url": "https://github.com/amanoese/nodep/issues"
+  },
+  "homepage": "https://github.com/amanoese/nodep#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+}
