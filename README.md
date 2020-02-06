@@ -4,7 +4,7 @@ nodep
 nodep は、bash で Node.js の関数を
 パイプ処理のように使用するためのコマンドです。
 
-## dependency
+## Dependency
 
 Node.js
 Bash
@@ -32,7 +32,7 @@ $ echo -n '{a:1}' | sed 's/^/x=/' | nodep eval @ JSON.stringify
 {"a":1}
 ```
 
-## other
+## Other
 
 [パイプライン演算子](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Operators/Pipeline_operator)が実装された場合、
 Node.jsのみでも下記のようにできるためこのコマンドは不要になるかもしれません。
@@ -40,3 +40,6 @@ Node.jsのみでも下記のようにできるためこのコマンドは不要�
 ```bash
 $ echo -n 'a=b' | node -pe 'require("fs").readFileSync("/dev/stdin","UTF-8") |> require("querystring").parse" |> JSON.stringify'
 ```
+
+## LICENSE
+Apache-2.0
