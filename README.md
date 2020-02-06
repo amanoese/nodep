@@ -41,5 +41,8 @@ Node.jsのみでも下記のようにできるためこのコマンドは不要�
 $ echo -n 'a=b' | node -pe 'require("fs").readFileSync("/dev/stdin","UTF-8") |> require("querystring").parse" |> JSON.stringify'
 ```
 
+## Thanks
+[takuya@mori](https://github.com/takuya)
+
 ## LICENSE
 Apache-2.0
